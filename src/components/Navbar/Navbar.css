@@ -1,0 +1,61 @@
+.Navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Title */
+.Navbar-title{
+    display: flex;
+    width: 100%;
+    min-height: 5rem;
+    background-color: #333333;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navbar-title h1{
+    margin: 0;
+    font-size: 1.5625rem;
+    text-transform: uppercase;
+}
+
+.Navbar-title span{
+    color: #ff5500;
+}
+
+/* Menu */
+.Navbar-menu{
+    display: flex;
+    background-color: #FFFFFF;
+    min-height: 4.375rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navbar-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Navbar-menu ul li{
+    display: inline;
+    margin: 0 2.5px;
+}
+
+.Navbar-menu button{
+    min-width: 10rem;
+    min-height: 2.5rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #666666;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+}
+
+.Navbar-menu button.active{
+    background-color: #ff5500;
+}

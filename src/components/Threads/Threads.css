@@ -1,17 +1,23 @@
 .Threads{
     display: flex;
-    background-color: white;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
 }
 
+/* Content */
 .Threads-content{
-    min-width: 90%;
+    width: 90%;
 }
 
 .Threads-item{
     display: flex;
     border-top: 1px solid #707070;
     padding: 10px 0;
+}
+
+.Threads-item:hover{
+    background-color: #eeeeee;
 }
 
 .Threads-item:last-of-type{
@@ -27,6 +33,11 @@
 .Threads-item h1{
     font-size: 1rem;
     margin: 0.25rem 0 0.5rem 0;
+}
+
+.Threads-item h1 > a{
+    font-size: 1rem;
+    text-decoration: none;
 }
 
 .Threads-item p{
@@ -48,4 +59,19 @@
 .Threads-item a{
     font-size: 0.75rem;
     color: #000;
+}
+
+/* Button */
+.Threads button{
+    width: 90%;
+    height: 2.5rem;
+    font-size: 1.0625rem;
+    font-weight: bold;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #666666;
+    color: #FFF;
+    cursor: pointer;
+    outline: none;
 }

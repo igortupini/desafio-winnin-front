@@ -6,7 +6,7 @@
 /* Title */
 .Navbar-title{
     display: flex;
-    width: 100%;
+    min-width: 100%;
     min-height: 5rem;
     background-color: #333333;
     color: #FFFFFF;
